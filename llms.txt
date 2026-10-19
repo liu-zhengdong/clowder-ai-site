@@ -1,0 +1,35 @@
+# Clowder AI atlas
+
+> Clowder AI 是一个多 agent 协作平台层。
+
+分层索引：每篇一行，标题、一句话、Markdown 全文链接。组成树按层缩进；先读根节点，再按需往下读。
+
+## 组成树
+
+- [Clowder AI：新人导览](https://liu-zhengdong.github.io/clowder-ai-site/index.md): Clowder AI 是一个多 agent 协作平台层。
+  - [对话与投递内核](https://liu-zhengdong.github.io/clowder-ai-site/conversation-kernel.md): 一条消息从输入框到气泡的完整生命周期
+  - [球权与等待责任](https://liu-zhengdong.github.io/clowder-ai-site/ball-custody.md): 谁在推进、在等什么、什么时候过期
+  - [猫与身份](https://liu-zhengdong.github.io/clowder-ai-site/cats-and-identity.md): 成员是谁、跑在哪个会话里、接的哪家 CLI
+  - [记忆与证据](https://liu-zhengdong.github.io/clowder-ai-site/memory-and-evidence.md): 怎么记住、怎么忘、什么时候想起来
+  - [技能与能力进化](https://liu-zhengdong.github.io/clowder-ai-site/skills-and-capability-evolution.md): 会什么、何时加载、能力怎么受治理地变强
+  - [协作纪律与治理](https://liu-zhengdong.github.io/clowder-ai-site/governance-and-gates.md): 风险分级、评审配对、合并门禁、eval 控制面
+  - [插件与外部连接](https://liu-zhengdong.github.io/clowder-ai-site/plugins-and-connectors.md): 猫伸手到外面去的那只手
+  - [在场·生活与作品](https://liu-zhengdong.github.io/clowder-ai-site/presence-and-works.md): 前台猫、生活与日记、看得见的家、作品
+  - [共同世界与运行底座](https://liu-zhengdong.github.io/clowder-ai-site/collective-and-runtime.md): 多猫咖协作 + 它到底跑在什么上面
+
+## 用户旅程
+
+（还没有做好的旅程）
+
+## 思想线
+
+- [养的是团队，不是工具](https://liu-zhengdong.github.io/clowder-ai-site/ideas/nurturing-moat.md): 护城河在关系层不在技术层
+- [自由判断，结构化交付](https://liu-zhengdong.github.io/clowder-ai-site/ideas/structured-delivery.md): 没有 Boss Agent，但有门禁
+- [平台定地板，模型定天花板](https://liu-zhengdong.github.io/clowder-ai-site/ideas/platform-sets-the-floor.md): 平台买的是下限
+- [在场先于服务](https://liu-zhengdong.github.io/clowder-ai-site/ideas/presence-before-service.md): 允许沉默是真实存在的
+- [诚实的身体](https://liu-zhengdong.github.io/clowder-ai-site/ideas/honest-body.md): 无状态源，不表达
+- [责任要显式](https://liu-zhengdong.github.io/clowder-ai-site/ideas/explicit-custody.md): 球在谁手上必须能被回答
+
+## 决策记录
+
+（还没有决策记录）
