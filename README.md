@@ -12,11 +12,21 @@ Clowder AI 的架构中枢文档。它回答一个问题：**Clowder AI 究竟�
 
 ## 看网页版
 
+**<https://liu-zhengdong.github.io/clowder-ai-site/>**
+
+本地预览：
+
 ```sh
 scripts/preview.sh          # 构建并起本地服务，浏览器打开 127.0.0.1:8791
 ```
 
-构建产物在 `.site/`，是纯静态 HTML。发布时给 `build.py` 传 `--site-url`，让 `llms.txt` 和每页 `.md` 里的链接写成绝对地址。
+站点由 `gh-pages` 分支发布，站点内容全部在本机构建好再推上去。改了文档要重新发布：
+
+```sh
+scripts/publish.sh          # 审计 → 建站 → 推 gh-pages
+```
+
+构建产物在 `.site/`，是纯静态 HTML。每页旁边有一份同名 `.md`，根目录一份 `llms.txt`，方便 AI 一次读完。
 
 ## 改文档
 
